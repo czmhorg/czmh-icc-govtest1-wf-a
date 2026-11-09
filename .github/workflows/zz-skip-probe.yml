@@ -1,0 +1,10 @@
+# Docasna sonda [skip ci] (plan-workflows-release-vetve, krok 0) - smazat. v1
+name: zz-skip-probe
+on:
+  push:
+    branches: ['develop']
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "probe $GITHUB_SHA"
