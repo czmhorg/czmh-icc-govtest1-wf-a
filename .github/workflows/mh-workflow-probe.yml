@@ -1,0 +1,10 @@
+# Docasna sonda toolu copy-workflows-to-release-branches (krok 4) - smazat.
+name: mh-workflow-probe
+on:
+  workflow_dispatch:
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo probe-jina-verze
+
