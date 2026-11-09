@@ -1,4 +1,4 @@
-# Docasna sonda [skip ci] (plan-workflows-release-vetve, krok 0) - smazat. v1
+# Docasna sonda [skip ci] (plan-workflows-release-vetve, krok 0) - smazat. v2
 name: zz-skip-probe
 on:
   push:
